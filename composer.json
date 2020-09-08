@@ -1,0 +1,20 @@
+{
+  "name": "wanzhong/yuntongxun",
+  "description": "A wrapper of official SDK for yuntongxun.com",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Jackie Meng",
+      "email": "jackie@zouliang.net"
+    }
+  ],
+  "require": {
+    "guzzlehttp/guzzle": "~6.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Wanzhong\\": "src/"
+    }
+  }
+}
